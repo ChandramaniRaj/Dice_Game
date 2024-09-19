@@ -3,13 +3,13 @@ randomNumber1=randomNumber1*6;
 randomNumber1=Math.floor(randomNumber1)+1;
 
 var randomDiceImage1 = "dice"+randomNumber1+".png";
-var imageSource1="image/"+randomDiceImage1;
+var imageSource1="./image/"+randomDiceImage1;
 
 document.querySelector(".img1").setAttribute("src",imageSource1);
 
 
 var randomNumber2=Math.floor(Math.random()*6)+1;
-var imageSource2="image/"+"dice"+randomNumber2+".png";
+var imageSource2="./image/"+"dice"+randomNumber2+".png";
 
 document.querySelector(".img2").setAttribute("src",imageSource2);
 
